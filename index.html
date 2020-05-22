@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud</title>
+
+    <link rel='stylesheet' href='css/style.css' type='text/css' />
+</head>
+<body>
+
+    <header>
+        <nav>
+          <h1>Biblioteca</h1>
+        </nav>
+    </header>
+    
+
+    <aside>
+        <h3>Seja bem-vindo a nosso sistema</h3>            
+    </aside>
+
+    <main>
+    <section>
+
+        <div class="principal">
+            
+            <form id="usuario">
+        
+                <h3>Usuários</h3>
+    
+                <label>Nome *</label>
+                <input type="text" name="txtNome" id="txtNome" class="campo">
+    
+                <label>Email *</label>
+                <input type="text" name="txtEmail" id="txtEmail" class="campo">
+    
+                <input type="submit" value="Salvar" class="btn">
+            </form>
+    
+            <table id="gvusuarios" class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+    
+            <form id="livro">
+                
+                <h3>Livros</h3>
+    
+                <label>Nome *</label>
+                <input type="text" name="txtNomeLivro" id="txtNomeLivro" class="campo">
+    
+                <label>Autor *</label>
+                <input type="text" name="txtAutor" id="txtAutor" class="campo">
+    
+                <input type="submit" value="Salvar" class="btnLivro btn">
+            </form>
+    
+            <table id="gvlivros" class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Autor</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+
+        </div>        
+
+    </section>  
+    </main>
+
+    <footer>
+	    <p>2020</p>
+	</footer>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
